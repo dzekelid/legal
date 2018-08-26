@@ -6,8 +6,8 @@ image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly
 x-kinRank: "8"
 x-alexaRank: "1199423"
 tags: Legal
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/codius/apis.md
 specificationVersion: "0.14"
 apis: []
