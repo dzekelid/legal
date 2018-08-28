@@ -1,9 +1,12 @@
+---
 swagger: "2.0"
 x-collection-name: Plentymarkets
-x-complete: 1
+x-complete: 0
 info:
-  title: plentymarkets REST-API
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  title: Plentymarkets Save legal information for an online store
+  description: |-
+    Saves a legal information for an online store. The plenty ID of the online store, the language of the legal information and the type of the legal information must be specified. The language must be specified as ISO 639-1 code.
+    Existing legal information will be overwritten.
   contact:
     name: plentymarkets
     url: https://forum.plentymarkets.com/c/rest-api
@@ -68,3 +71,17 @@ paths:
       - Informationan
       - Online
       - Store
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Storecove
-x-complete: 1
+x-complete: 0
 info:
-  title: Storecove
-  description: storecove-api
+  title: Storecove Delete PeppolIdentifier
+  description: Delete a specific PeppolIdentifier.
   version: 2.0.1
 host: api.storecove.com
 basePath: /api/v2
@@ -135,36 +136,17 @@ paths:
       - Actorid
       - Upis
       - Schemeentifier
-    patch:
-      summary: Update PeppolIdentifier
-      description: Update a specific PeppolIdentifier.
-      operationId: update_peppol_identifier
-      x-api-path-slug: legal-entitieslegal-entity-idpeppol-identifiersiso6523actoridupisschemeidentifier-patch
-      parameters:
-      - in: path
-        name: identifier
-        description: PEPPOL identifier
-      - in: path
-        name: legal_entity_id
-        description: The id of the LegalEntity this PeppolIdentifier belongs to
-      - in: body
-        name: peppol_identifier
-        description: PeppolIdentifier updates
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: scheme
-        description: PEPPOL identifier scheme id, e
-      responses:
-        200:
-          description: OK
-      tags:
-      - Legal
-      - Entities
-      - Legal
-      - Entity
-      - Peppolentifiers
-      - Iso6523
-      - Actorid
-      - Upis
-      - Schemeentifier
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

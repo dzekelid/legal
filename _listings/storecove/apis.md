@@ -10,11 +10,81 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Legal
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Storecove - Create a new LegalEntity
+  x-api-slug: legal-entities-post
+  description: Create a new LegalEntity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entities-post-openapi.md
+- name: Storecove - Delete LegalEntity
+  x-api-slug: legal-entitiesid-delete
+  description: Delete a specific LegalEntity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entitiesid-delete-openapi.md
+- name: Storecove - Get LegalEntity
+  x-api-slug: legal-entitiesid-get
+  description: Get a specific LegalEntity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entitiesid-get-openapi.md
+- name: Storecove - Update LegalEntity
+  x-api-slug: legal-entitiesid-patch
+  description: Update a specific LegalEntity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entitiesid-patch-openapi.md
+- name: Storecove - Create a new PeppolIdentifier
+  x-api-slug: legal-entitieslegal-entity-idpeppol-identifiers-post
+  description: Create a new PeppolIdentifier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entitieslegal-entity-idpeppol-identifiers-post-openapi.md
+- name: Storecove - Delete PeppolIdentifier
+  x-api-slug: legal-entitieslegal-entity-idpeppol-identifiersiso6523actoridupisschemeidentifier-delete
+  description: Delete a specific PeppolIdentifier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entitieslegal-entity-idpeppol-identifiersiso6523actoridupisschemeidentifier-delete-openapi.md
+- name: Storecove - Update PeppolIdentifier
+  x-api-slug: legal-entitieslegal-entity-idpeppol-identifiersiso6523actoridupisschemeidentifier-patch
+  description: Update a specific PeppolIdentifier.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/legal-entitieslegal-entity-idpeppol-identifiersiso6523actoridupisschemeidentifier-patch-openapi.md
 x-common:
 - type: x-website
   url: http://www.storecove.com

@@ -1,0 +1,204 @@
+{
+	"name": "Streadata.io API Gallery - Legal",
+	"description": "This is a repository of legal APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/legal.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://legal.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "European Union Legislation",
+			"x-api-slug": "european-union-legislation",
+			"description": "",
+			"image": "",
+			"humanURL": "http://api.epdb.eu/",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/european-union-legislation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Markify",
+			"x-api-slug": "markify",
+			"description": "Markify is the worlds most accurate full trademark search. We help you avoid all confusingly similar marks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1024-markify.jpg",
+			"humanURL": "http://www.markify.com",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/markify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Openkvk",
+			"x-api-slug": "openkvk",
+			"description": "Handelsregister 24x7 + API | https://t.co/RRcjDYqdu0",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2204-openkvk.jpg",
+			"humanURL": "https://www.openkvk.nl/api.html",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/openkvk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Creative Commons",
+			"x-api-slug": "creative-commons",
+			"description": "Creative Commons is a nonprofit organization at the center of a high-profile, international movement to promote sharing of creativity and knowledge. Our goal is to help realize the full potential of the Internetuniversal access to research and educati...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3506-creative-commons.jpg",
+			"humanURL": "https://creativecommons.org/",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/creative-commons/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codius",
+			"x-api-slug": "codius",
+			"description": "Codius can talk to anything connected to the internet.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://codius.org/",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/codius/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Patentlyo",
+			"x-api-slug": "patentlyo",
+			"description": "",
+			"image": "",
+			"humanURL": "http://patentlyo.com/",
+			"baseURL": "https:///",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/patentlyo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Storecove",
+			"x-api-slug": "storecove",
+			"description": "Storecove is Netherlands&rsquo; first online platform that provides people and companies with a way to view all their invoices in one online overview. Dolf Kars, founder and former owner of Videostrip (acquired by RTL Nederland), established Storecove in 2014 with cofounder Michael Riviera and Willem Stemfoort. Storecove mainly focuses on automatically collecting invoices, which saves time and money.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg",
+			"humanURL": "http://www.storecove.com",
+			"baseURL": "https://api.storecove.com//api/v2",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Legal",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Legal",
+	"include": [
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "European Union Legislation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/european-union-legislation/apis.yaml"
+		},
+		{
+			"name": "Markify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/markify/apis.yaml"
+		},
+		{
+			"name": "Openkvk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/openkvk/apis.yaml"
+		},
+		{
+			"name": "Creative Commons",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/creative-commons/apis.yaml"
+		},
+		{
+			"name": "Codius",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/codius/apis.yaml"
+		},
+		{
+			"name": "Patentlyo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/patentlyo/apis.yaml"
+		},
+		{
+			"name": "Storecove",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/storecove/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

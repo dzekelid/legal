@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3506-creat
 x-kinRank: "9"
 x-alexaRank: "6736"
 tags: Legal
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/legal/master/_listings/creative-commons/apis.md
 specificationVersion: "0.14"
 apis: []
